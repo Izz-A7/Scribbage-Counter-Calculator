@@ -15,13 +15,13 @@ To use the Counter class, create a new instance with the player's hand and start
 The Counter class does not have any constants.
 
 ## Functions
-'**Counter(hand, starter)**': Initializes a new Counter object with the given hand and starter card.
-'**countPairsPoints()**': Counts the number of pairs in the hand and returns the number of points earned.
-'**countRunsPoints()**': Counts the number of runs in the hand and returns the number of points earned.
-'**countFifteensPoints()**': Counts the number of ways to make 15 with the cards in the hand and returns the number of points earned.
-'**countFlushPoints()**': Checks if the hand has a flush and returns the number of points earned.
-'**countHisKnobsPoints()**': Checks if the hand has a Jack that matches the suit of the starter card and returns the number of points earned.
-'**countPoints()**': Returns the total number of points earned by adding the number of points earned from each of the above methods.
+- '**Counter(hand, starter)**': Initializes a new Counter object with the given hand and starter card.
+- '**countPairsPoints()**': Counts the number of pairs in the hand and returns the number of points earned.
+- '**countRunsPoints()**': Counts the number of runs in the hand and returns the number of points earned.
+- '**countFifteensPoints()**': Counts the number of ways to make 15 with the cards in the hand and returns the number of points earned.
+- '**countFlushPoints()**': Checks if the hand has a flush and returns the number of points earned.
+- '**countHisKnobsPoints()**': Checks if the hand has a Jack that matches the suit of the starter card and returns the number of points earned.
+- '**countPoints()**': Returns the total number of points earned by adding the number of points earned from each of the above methods.
 
 ## Limitations
 The Counter class assumes that the hand and starter card are valid playing cards, and does not check for errors if invalid cards are passed as arguments. It also does not handle ties, which may occur if two players have hands with the same number of points.
